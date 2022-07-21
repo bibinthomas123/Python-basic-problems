@@ -10,7 +10,7 @@ def again():
     else:
         print("see you later")
         time.sleep(2)
-        os.system("cls")
+        os.system("cls")#clears the console screen 
 
 def operation():
     CRED = '\033[91m'  #Color codes
