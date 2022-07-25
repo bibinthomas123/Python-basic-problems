@@ -3,8 +3,8 @@ import sys
 class NumberGuessing(object): #class
 
     def __init__(self): #constructor 
-        self.LOWER=1
-        self.HIGHER=100
+        self.LOWER = 1
+        self.HIGHER = 100
 
     def random_number(self):  #this function generates a random number using random module 
         return r.randint(self.LOWER,self.HIGHER)
